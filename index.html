@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather Me</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+
+    <div class="app-header">
+        <h1>Weather Update</h1>
+        <span>Enter a location for weather information</span>
+
+        <form>
+            <label for="userLocation"></label>
+            <input type="text" name="userLocation" id="userLocation" autocomplete="off" title="Enter location" placeholder="Enter location">
+        </form>
+    </div>
+
+    <div class="app-body">
+        <div class="time-image">
+            <img src="https://via.placeholder.com/300x250" alt="day or night image" id="time">
+        </div>
+        <div class="weather-icon">
+            <img src="https://via.placeholder.com/100" alt="weather icon" id="icon">
+        </div>
+
+        <div class="weather-info">
+            <p id="city">COLOMBO</p>
+            <P id="status">cloudy</P>
+            <p id="temp">24.6 &#8451;</p>
+        </div>
+    </div>
+
+    <script src="./scripts/forecasr.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
+
+
+
